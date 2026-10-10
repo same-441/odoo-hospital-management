@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- From View (List) -->
+    <record id="view_patient_complaint_form" model="ir.ui.view">
+        <field name="name">patient.complaint.form</field>
+        <field name="model">patient.complaint</field>
+        <field name="arch" type="xml">
+            <form string="Patient Complaints">
+                <sheet>
+                    <group>
+                        <field name="patient_id" />
+                        <field name="complaint" />
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>     
